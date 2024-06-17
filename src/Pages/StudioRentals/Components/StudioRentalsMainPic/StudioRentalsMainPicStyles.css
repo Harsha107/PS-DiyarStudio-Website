@@ -1,0 +1,39 @@
+.studio-rentals-main-pic-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 45px;
+}
+
+.studio-rentals-main-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.srmp-overlay {
+    position: absolute;
+    top: 80%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+}
+
+.srmp-overlay-text {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 450px) {
+    .studio-rentals-main-pic-container {
+        margin-top: 60px;
+    }
+
+    .srmp-overlay {
+        left: 32%;
+    }
+
+    .srmp-overlay-text{
+        font-size: 35px;
+    }
+}

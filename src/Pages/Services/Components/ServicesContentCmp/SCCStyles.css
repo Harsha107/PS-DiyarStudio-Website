@@ -1,0 +1,75 @@
+.services-content-cmp-container {
+    background-color: #fff;
+    margin: 0 55px 100px 55px;
+}
+
+.scc-content-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    box-shadow: 4px 4px 67px 0 rgba(0, 0, 0, 0.26);
+    margin-bottom: 60px;
+}
+
+.scc-img-container, .scc-text_btn-container {
+    width: 50%;
+    height: 100%;
+}
+
+.scc-img {
+    width: 100%;
+    height: 100%;
+}
+
+.scc-text_btn-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.scc-text1-container {
+    margin-bottom: 40px;
+}
+
+.scc-text1 {
+    margin-top: 90px;
+    font-size: 36px;
+    font-weight: medium;
+    text-align: center;
+}
+
+.scc-sbt, .scc-sbt2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+    font-weight: light;
+}
+
+.scc-btn {
+    margin-top: 47px;
+    margin-left: 530px;
+    border: 2px solid #bc8b43;
+    color: #fff;
+    background-color: #bc8b43;
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.scc-btn:hover {
+    color: #bc8b43;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.scc-text2 {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: medium;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0cf4a443.css",
+    "main.js": "/static/js/main.6bf323e3.js",
+    "static/media/diyar _2.jpg": "/static/media/diyar _2.9b6ce5ec49fc529675f9.jpg",
+    "index.html": "/index.html",
+    "main.0cf4a443.css.map": "/static/css/main.0cf4a443.css.map",
+    "main.6bf323e3.js.map": "/static/js/main.6bf323e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cf4a443.css",
+    "static/js/main.6bf323e3.js"
+  ]
+}

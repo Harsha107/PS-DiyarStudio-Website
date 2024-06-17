@@ -1,0 +1,179 @@
+.whatOS-container {
+    background-color: #e2e3e0;
+    width: 100%;
+    height: 650px; 
+    font-family: 'Poppins', sans-serif;
+    margin-top: 70px;
+}
+
+.wos-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: normal;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    gap: 45px;
+    margin: 0 0 0 55px;
+}
+
+.wos-comment-box {
+    width: 700px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wos-comment{
+    flex: 0 0 auto;
+    width: 90%;
+}
+
+.srs-container::-webkit-scrollbar {
+    display: none;
+}
+
+.wos-title-container {
+    margin-top: 70px;
+    margin: 65px 55px;
+}
+
+.wos-title {
+    font-size: 70px;
+}
+
+.wos-comment1 {
+    width: 600px;
+    height: 170px;
+    margin: 0 83px 0 0;
+    padding: 11px 89px 16px 14px;
+    border: solid 1px #bc8b43;
+    background-color: #fff;
+}
+
+.wos-comment-text-container {
+    margin-top: 1000px;
+}
+
+.wos-comment-text {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.wos-comment-img-container {
+    width: 100px;
+    height: 100px;
+    margin-top: -14%;
+    margin-left: 110%;
+}
+
+.wos-comment-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.wosc-name {
+    margin-top: -17px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.wos-quote-icon {
+    color: #bc8b43;
+    margin-left: 5px;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 450px) {
+    .whatOS-container {
+        height: 350px;
+        margin-top: 0;
+    }
+
+    .wos-container {
+        margin-left: 20px;
+        padding-left: 20px;
+        margin-left: 0;
+        height: 300px;
+        margin-top: 0;
+        padding-top: 25px;
+    }
+
+    .wos-title-container {
+        margin: 25px 0 0 17px;
+        padding-top: 26px;
+    }
+
+    .wos-title {
+        font-size: 35px;
+    }
+
+    .wos-comment-box {
+        width: 400px;
+        height: 220px;
+    }
+
+    .wos-comment1 {
+        width: 380px;
+        height: 90px;
+        box-shadow: 2px 2px 27px 0 rgba(0, 0, 0, 0.26);
+        border: none;
+    }
+
+    .wos-quote-icon {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .wos-comment-text-container {
+        margin: 0;
+    }
+
+    .wos-comment-text {
+        margin-top: -15px;
+        margin-left: 34px;
+        margin-right: -53px;
+        font-size: 12px;
+    }
+    
+    .wos-comment-img-container {
+        width: 50px;
+        height: 50px;
+        margin-top: -15%;
+        margin-left: 124%;
+    }
+    
+    .wos-comment-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    .wosc-name {
+        margin-top: 1px;
+        text-align: center;
+        margin-left: 50px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .wos-title {
+        font-size: 30px;
+    }
+
+    .wos-comment-box {
+        width: 380px;
+    }
+
+    .wos-comment1 {
+        width: 330px;
+        height: 85px;
+    }
+
+    .wos-comment-text {
+        font-size: 10px;
+    }
+}

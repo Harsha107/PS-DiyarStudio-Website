@@ -1,0 +1,46 @@
+.video-main-pic-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+.video-main-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.vmp-overlay {
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+}
+
+.vmp-overlay-text {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 450px) {
+    .video-main-pic-container {
+        margin-top: 60px;
+    }
+
+    .vmp-overlay {
+        left: 30%;
+    }
+    
+    .vmp-overlay-text {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 396px) {
+    .vmp-overlay {
+        left: 35%;
+    }
+}

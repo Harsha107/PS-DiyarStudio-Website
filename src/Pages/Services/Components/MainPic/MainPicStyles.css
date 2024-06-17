@@ -1,0 +1,30 @@
+.services-main-pic-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.smp-img {
+    width: 100%;
+    height: 100%;
+}
+
+.smp-img-overlay {
+    position: absolute;
+    top: 80%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.smp-overlay-text {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}

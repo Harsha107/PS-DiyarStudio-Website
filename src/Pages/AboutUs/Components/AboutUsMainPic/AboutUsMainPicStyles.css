@@ -1,0 +1,59 @@
+.aboutUs-mainPic-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.aboutUs-mainPic {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutUs-mainPic-overlay {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutUs-mainPic-overlay-text {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 811px) {
+    .aboutUs-mainPic-overlay {
+        left: 15%;
+    }
+
+    .aboutUs-mainPic-overlay-text {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutUs-mainPic-container {
+        margin-top: 60px;
+    }
+
+    .aboutUs-mainPic-overlay {
+        left: 18%;
+    }
+
+    .aboutUs-mainPic-overlay-text {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 451px) {
+    .aboutUs-mainPic-overlay {
+        left: 20%;
+    }
+
+    .aboutUs-mainPic-overlay-text {
+        font-size: 30px;
+    }
+}

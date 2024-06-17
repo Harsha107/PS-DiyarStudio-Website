@@ -1,0 +1,39 @@
+.mpcmp-img-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 45px;
+}
+
+.mpcmp-img {
+    width: 100%;
+    height: 100%;
+}
+
+.mpcmp-overlay {
+    position: absolute;
+    top: 80%;
+    left: 24.5%;
+    transform: translate(-50%, -50%);
+}
+
+.mpcmp-overlay-text {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+@media only screen and (max-width: 450px) {
+    .mpcmp-img-container {
+        margin-top: 60px;
+    }
+
+    .mpcmp-overlay {
+        left: 35%;
+    }
+
+    .mpcmp-overlay-text {
+        font-size: 32px;
+    }
+}

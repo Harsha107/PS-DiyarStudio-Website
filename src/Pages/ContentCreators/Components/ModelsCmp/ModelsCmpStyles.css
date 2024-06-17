@@ -1,0 +1,93 @@
+.models-cmp-container {
+    background-color: #fff;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+.mpcmp-title-container {
+    width: 70px;
+    height: 70px;
+    margin: 43px 285px 70px 0px;
+}
+
+.mcmp-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.mcmp-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mcmp-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.mcmp-img1-container,
+.mcmp-img2-container {
+    width: 50%;
+    height: auto;
+}
+
+.female-model-img,
+.male-model-img {
+    width: 100%;
+    height: 100%;
+}
+
+.female-model-img {
+    margin: 20px 20px 20px 0;
+}
+
+.male-model-img {
+    margin: 20px 0 20px 20px;
+}
+
+.model1-desc,
+.model2-desc {
+    width: 698px;
+    background-color: #000;
+}
+
+.model1-desc {
+    margin: 40px 20px 20px 0;
+}
+
+.model2-desc {
+    margin: 40px 0 20px 0px;
+}
+
+.model1-desc, .model2-desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.model1-name, .model2-name {
+    margin-bottom: 10px;
+}
+
+.model1-height, .model1-build {
+    font-size: 15px;
+}
+
+.model2-height, .model2-build {
+    font-size: 15px;
+}

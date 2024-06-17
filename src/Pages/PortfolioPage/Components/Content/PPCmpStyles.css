@@ -1,0 +1,110 @@
+    .ppcpm-container {
+        background-color: #fff;
+    }
+
+    .ppcmp-img-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ppcmp-img-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ppcmp-leftImg-container,
+    .ppcmp-rightImg-container {
+        width: 50%;
+        height: 400px;
+    }
+
+    .ppcmp-img1, .ppcmp-img2, .ppcmp-img3, .ppcmp-img4, .ppcmp-img5, .ppcmp-img6, .ppcmp-img7,
+    .ppcmp-img8, .ppcmp-img9, .ppcmp-img10, .ppcmp-img11, .ppcmp-img12, .ppcmp-img13, .ppcmp-img14 {
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .ppcmp-leftImg-container {
+        margin-left: 55px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .ppcmp-rightImg-container {
+        margin-right: 55px;
+        margin-bottom: 10px;
+    }
+
+    .ppcmp-img-overlay {
+        position: relative;
+    }
+
+    .ppcmp-img-overlay::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .ppcmp-img-overlay:hover::before {
+        opacity: 1;
+    }
+
+    .ppcmp-img-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        color: #fff;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .ppcmp-img-overlay:hover .ppcmp-img-text {
+        opacity: 1;
+    }
+
+@media only screen and (max-width: 450px) {
+    .ppcmp-img-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ppcmp-leftImg-container,
+    .ppcmp-rightImg-container {
+        margin: 0 0;
+        width: 90%;
+        height: auto;
+    }
+
+    .ppcmp-img1,
+    .ppcmp-img2,
+    .ppcmp-img3,
+    .ppcmp-img4,
+    .ppcmp-img5,
+    .ppcmp-img6,
+    .ppcmp-img7,
+    .ppcmp-img8,
+    .ppcmp-img9,
+    .ppcmp-img10,
+    .ppcmp-img11,
+    .ppcmp-img12,
+    .ppcmp-img13,
+    .ppcmp-img14 {
+        height: 237px;
+    }
+
+    .ppcmp-leftImg-container,
+    .ppcmp-rightImg-container {
+        margin: 0 20px 10px 20px;
+    }
+}

@@ -1,0 +1,25 @@
+@media only screen and (max-width: 396px) {
+    .srmp-overlay-text {
+        font-size: 30px;
+    }
+
+    .srs-text {
+        font-size: 18px;
+    }
+
+    .mpcmp-overlay-text {
+        font-size: 25px;
+    }
+
+    .au-overlay-text {
+        font-size: 30px;
+    }
+
+    .pp-overlay-text {
+        font-size: 30px;
+    }
+
+    .pp-content-title {
+        font-size:30px;
+    }
+}
